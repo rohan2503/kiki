@@ -11,18 +11,18 @@
         <div class="logo">Kiki Club</div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="#what-we-do">What We Do</a></li>
-                <li><a href="#faqs">FAQs</a></li>
-                <li><a href="#recent-listings">Recent Listings</a></li>
+              <li><a href="#" data-scroll-to="home">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#" data-scroll-to="what-we-do">What We Do</a></li>
+              <li><a href="#" data-scroll-to="faqs">FAQs</a></li>
+              <li><a href="#" data-scroll-to="recent-listings">Recent Listings</a></li>
             </ul>
-        </nav>
+          </nav>
         <button class="cta-button">List Your Space</button>
     </header>
 
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="hero-container">
                 <div class="gradient-overlay"></div>
                 <div class="hero-content">
@@ -32,8 +32,8 @@
             </div>
         </section>
 
-        <section class="recent-listings">
-            <button class="view-listings-btn">Recent Listings →</button>
+        <section id="recent-listings" class="recent-listings">
+            <button class="view-listings-btn">Recent Listings</button>
             <div class="listings-carousel">
                 <div class="carousel-track">
                     <div class="listing-card">
@@ -151,7 +151,7 @@
             </div>
         </section>
 
-        <div class="section-container">
+        <section id="what-we-do" class="section-container">
             <h2 class="section-heading">How does Kiki work?</h2>
             <div class="steps-container">
                 <div class="step-card">
@@ -171,9 +171,9 @@
                     <p>Tip* you need to book for at least 80% of the available dates or you'll miss out</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section-container">
+        <section id="faqs" class="section-container">
             <h2 class="section-heading">Frequently Asked Questions</h2>
             <div class="faq-container">
                 <div class="faq-item">
@@ -192,7 +192,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
